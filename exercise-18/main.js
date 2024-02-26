@@ -1,0 +1,11 @@
+var myPlaces = ["Karachi", "Uk", "Larkana", "Sukkar", "Hyderabad", "Quetta"];
+var copyOfArry = myPlaces.slice();
+var sortedArry = copyOfArry.sort();
+var copyOfArry2 = myPlaces.slice();
+var reverseOriArray = copyOfArry.reverse();
+var reverseOriArray2 = myPlaces.reverse();
+var againReverse = reverseOriArray2.reverse();
+var sortOriArray = myPlaces.sort();
+console.log(sortOriArray);
+var reversesortedarray = sortOriArray.reverse();
+console.log(reversesortedarray);
